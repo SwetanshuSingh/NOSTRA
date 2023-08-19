@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <section id="bonus">
+        <div>
+            <p>Sign up and <b>GET 20% OFF</b> for your first order.</p>
+            <a href="#">Sign up Now</a>
+            <i class="ri-close-line" id="bonusCloseBtn"></i>
+        </div>
+    </section>
+
+    <section id="header">
+        <a href="#">NOSTRA</a>
+        <nav id="nav">
+            <ul id="nav-bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html" id="page-active">Shop</a></li>
+                <li><a href="#">Most Wanted</a></li>
+                <li><a href="#">New Arrival</a></li>
+                <li><a href="#">Brands</a></li>
+                <li id="lg-bag" class="active"><a href="cart.html" class="cart"><i
+                            class="ri-shopping-cart-line"></i></a></li>
+                <li><a href="#"><i class="ri-user-line"></i></a></li>
+                <a href="#" id="close"><i><i class="ri-close-line"></i></i></a>
+            </ul>
+        </nav>
+        <div id="mobile">
+            <li><a href="cart.html" class="cart"><i class="ri-shopping-cart-line"></i></a></li>
+            <i id="menu" class="ri-menu-3-line"></i>
+        </div>
+    </section>
+
+    <div class="main-view">
+        <h2>Cart</h2>
+        <section id="cart">
+            
+            <h3>Cart is Empty</h3>
+            
+        </section>
+        <div class="checkout">
+            <h2>Place Order</h2>
+            <h3>Price Details</h3>
+            <div class="price-details">
+                <div class="bag-total">
+                    <h4>Bag Total</h4>
+                    <p id="bag-amount">Rs. 0</p>
+                </div>
+                <div class="tax">
+                    <h4>CGST/SGST</h4>
+                    <p>Rs. 50</p>
+                </div>
+                <div class="delivery">
+                    <h4>Shipping Charges</h4>
+                    <p>Rs. 100</p>
+                </div>
+                <div class="order-total">
+                    <h4>Order Total</h4>
+                    <p id="total-amount">Rs. 0</p>
+                </div>
+                <button class="place-order">
+                    Place Order
+                </button>
+
+
+            </div>
+        </div>
+    </div>
+
+    <section id="discount-banner">
+        <h4>Limited Offer</h4>
+        <h2>35% off this friday</h2>
+        <h2>and get special gift</h2>
+        <button>Grab it Now</button>
+    </section>
+
+    <section id="newsletter">
+        <h3>Subscribe to our newsletter to get updates</h3>
+        <h3>to our latest collections</h3>
+        <p>Get 20% off on your first order just by subscribing to our newsletter</p>
+        <div class="email-box"><input type="text" placeholder="Enter your email">
+            <button>Subscribe</button>
+        </div>
+        <p>You will be able to unsubscribe at any time.</p>
+        <p>Read our Privacy Policy <a href="#">here</a></p>
+    </section>
+
+    <footer>
+        <div class="col">
+            <a href="#">NOSTRA</a>
+            <p>Specializes in providing high-quality, stylish</p>
+            <p>products for your wadrobe</p>
+        </div>
+        <div class="col">
+            <h3>Shop</h3>
+            <p>All collections</p>
+            <p>Winter Edition</p>
+            <p>Discount</p>
+        </div>
+        <div class="col">
+            <h3>Company</h3>
+            <p>About Us</p>
+            <p>Contact</p>
+            <p>Affiliates</p>
+        </div>
+        <div class="col">
+            <h3>Support</h3>
+            <p>FAQs</p>
+            <p>Cookie Policy</p>
+            <p>Terms of Use</p>
+        </div>
+        <div class="col">
+            <h3>Payment Methods</h3>
+            <img src="images/pay/pay.png" alt="pay">
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+    <script src="cart.js"></script>
+</body>
+
+</html>
